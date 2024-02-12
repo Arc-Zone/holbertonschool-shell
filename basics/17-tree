@@ -1,0 +1,2 @@
+#!/bin/bash 
+mkdir -ptmp/test_tree/welcom/to/school
