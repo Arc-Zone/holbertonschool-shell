@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 find ../ -type f | wc -l   
+=======
+find . -type d |tail -n +2 | wc -l
+>>>>>>> refs/remotes/origin/main
