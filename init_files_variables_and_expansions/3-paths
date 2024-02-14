@@ -1,2 +1,2 @@
 #!/bin/bash
-find $PATH | cut -d/ | wc -l 
+find $PATH | cut -d '/' | wc -l 
