@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'Hello World' | tr 'A-Za-z' 'N-ZA-Mn-za-m'  
+while read -r ligne; do encode_rot13 <<< "$ligne"; done < "${1:-/dev/stdin}" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
