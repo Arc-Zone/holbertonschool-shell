@@ -1,2 +1,2 @@
 #!/bin/bash
-find $PATH | tr ':' ' \n' | grep -v | wc -l 
+find $PATH | tr ':' ' \n' | grep "/S" | wc -l 
