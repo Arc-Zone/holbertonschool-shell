@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((1#$DECIMAL)) 
+printf '%x\n' 26 
